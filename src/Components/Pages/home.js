@@ -13,15 +13,15 @@ import Newsletter from "./newsletter";
 // import Nav from "../Navbar/nav";
 
 const Home = () => {
-    useEffect(() => {
-        const hash = window.location.hash;
-        if (hash) {
-          const section = document.querySelector(hash);
-          if (section) {
-            section.scrollIntoView({ behavior: 'smooth' });
-          }
-        }
-    }, []);
+    // useEffect(() => {
+    //     const hash = window.location.hash;
+    //     if (hash) {
+    //       const section = document.querySelector(hash);
+    //       if (section) {
+    //         section.scrollIntoView({ behavior: 'smooth' });
+    //       }
+    //     }
+    // }, []);
 
     return (
         <>

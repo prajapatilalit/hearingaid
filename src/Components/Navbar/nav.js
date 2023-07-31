@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 // import Home from "../Pages/home"
 
 const Nav = () => {
+    console.log(window.location.pathname,"pathname")
+    const [getCurrentPathName, setCurrentPathName] = useState('')
 
     return (
         <>
@@ -16,19 +18,19 @@ const Nav = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <div className="navbar-nav ms-auto py-0">
-                        <Link to="/" className="nav-item nav-link active">Home</Link>
-                        <Link to="/about" className="nav-item nav-link">About</Link>
-                        <Link to="/service" className="nav-item nav-link">Service</Link>
+                        <Link to="/" className={`nav-item nav-link ${getCurrentPathName.includes('home') ? "active" :"" }`}  onClick={()=>setCurrentPathName('home')} >Home</Link>
+                        <Link to="about" className={`nav-item nav-link ${getCurrentPathName.includes('about') ? "active" :"" }`}   onClick={()=>setCurrentPathName('about')} >About</Link>
+                        <Link to="/service" className={`nav-item nav-link ${getCurrentPathName.includes('service') ? "active" :"" }`} onClick={()=>setCurrentPathName('service')}>Service</Link>
                         <div className="nav-item dropdown">
-                            <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <span className={`nav-link dropdown-toggle ${getCurrentPathName.includes('page') ?   "active" :"" } `}data-bs-toggle="dropdown">Pages</span>
                             <div className="dropdown-menu m-0">
-                                <Link to="/pricing" className="dropdown-item">Pricing Plan</Link>
-                                <Link to="/team" className="dropdown-item">Our Ear Specialist</Link>
-                                <Link to="/testimonial" className="dropdown-item">Testimonial</Link>
-                                <Link to="/appointment" className="dropdown-item">Appointment</Link>
+                                <Link to="/pricing" className="dropdown-item" onClick={()=>setCurrentPathName('page')}>Pricing Plan</Link>
+                                <Link to="/team" className="dropdown-item" onClick={()=>setCurrentPathName('page')}>Our Ear Specialist</Link>
+                                <Link to="/testimonial" className="dropdown-item" onClick={()=>setCurrentPathName('page')}>Testimonial</Link>
+                                <Link to="/appointment" className="dropdown-item" onClick={()=>setCurrentPathName('page')}>Appointment</Link>
                             </div>
                         </div>
-                        <Link to="/contact" className="nav-item nav-link">Contact</Link>
+                        <Link to="/contact" className={`nav-item nav-link ${getCurrentPathName.includes('contact') ? "active" :"" }`} onClick={()=>setCurrentPathName('contact')} >Contact</Link>
                     </div>
                     <button type="button" className="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fa fa-search"></i></button>
                     <a href="appointment.html" className="btn btn-success py-2 px-4 ms-3">Appointment</a>
