@@ -19,7 +19,7 @@ const Nav = () => {
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <div className="navbar-nav ms-auto py-0">
                         <Link to="/" className={`nav-item nav-link ${getCurrentPathName.includes('home') ? "active" :"" }`}  onClick={()=>setCurrentPathName('home')} >Home</Link>
-                        <Link to="about" className={`nav-item nav-link ${getCurrentPathName.includes('about') ? "active" :"" }`}   onClick={()=>setCurrentPathName('about')} >About</Link>
+                        <Link to="/about" className={`nav-item nav-link ${getCurrentPathName.includes('about') ? "active" :"" }`}   onClick={()=>setCurrentPathName('about')} >About</Link>
                         <Link to="/service" className={`nav-item nav-link ${getCurrentPathName.includes('service') ? "active" :"" }`} onClick={()=>setCurrentPathName('service')}>Service</Link>
                         <div className="nav-item dropdown">
                             <span className={`nav-link dropdown-toggle ${getCurrentPathName.includes('page') ?   "active" :"" } `}data-bs-toggle="dropdown">Pages</span>
