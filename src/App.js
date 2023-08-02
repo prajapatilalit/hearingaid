@@ -20,18 +20,20 @@ const App = () => {
       <Spinner/>
       <Topbar/>
       <Nav/>
-      <Home/>
-      <Footer/>
+      {/* <Home/> */}
+     
 
       <Routes>
-        <Route path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/pricing" component={Pricing} />
-        <Route path="/team" component={Team} />
-        <Route path="/appointment" component={Appointment} />
-        <Route path="/testimonial" component={Testimonial} />
-        <Route path="/service" component={Service} />
+        <Route path="/"  element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/pricing"  element={<Pricing />} /> 
+        <Route path="/team"  element={<Team />} />
+        <Route path="/appointment" element={ <Appointment />} />
+        <Route path="/testimonial" element={<Testimonial />} />
+        <Route path="/service" element={<Service />} />
+       
       </Routes>
+      <Footer/>
     </Router>
 
   );
