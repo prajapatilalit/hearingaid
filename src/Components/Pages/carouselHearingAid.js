@@ -12,7 +12,7 @@ const CarouselHearinAid = () => {
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div className="p-3">
                                     <h5 className="text-white text-uppercase mb-3 animated slideInDown">Keep Your Ear Healthy</h5>
-                                    <h1 className="display-1 text-white mb-md-4 animated zoomIn">Take The Best Quality Hearing Aid</h1>
+                                    <h1 className="display-1 text-white mb-md-4 animated zoomIn fs-1">Hear the world clearly with EliteListen</h1>
                                     <a href="appointment.html" className="btn btn-success py-md-3 px-md-5 me-3 animated slideInLeft">Appointment</a>
                                     <a href="" className="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                                 </div>
@@ -23,7 +23,7 @@ const CarouselHearinAid = () => {
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div className="p-3">
                                     <h5 className="text-white text-uppercase mb-3 animated slideInDown">Keep Your Ear Healthy</h5>
-                                    <h1 className="display-1 text-white mb-md-4 animated zoomIn">Take The Best Quality Hearing Aid</h1>
+                                    <h1 className="display-1 text-white mb-md-4 animated zoomIn fs-1">Hear the world clearly with EliteListen</h1>
                                     <a href="appointment.html" className="btn btn-success py-md-3 px-md-5 me-3 animated slideInLeft">Appointment</a>
                                     <a href="" className="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                                 </div>

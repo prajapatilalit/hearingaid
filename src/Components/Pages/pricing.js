@@ -37,7 +37,7 @@ const Pricing = () => {
                             </div>
                             <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo eirmod magna dolore erat amet</p>
                             <h5 className="text-uppercase text-success wow fadeInUp" data-wow-delay="0.3s">Call for Appointment</h5>
-                            <h1 className="wow fadeInUp" data-wow-delay="0.6s">+919911917723</h1>
+                            <h1 className="wow fadeInUp" data-wow-delay="0.6s">+91-9911917723</h1>
                         </div>
                         <div className="col-lg-7">
                             <div className="owl-carousel price-carousel wow zoomIn" data-wow-delay="0.9s">

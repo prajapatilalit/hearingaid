@@ -19,7 +19,7 @@ const Appointment = () => {
                                 <form>
                                     <div className="row g-3">
                                         <div className="col-12 col-sm-6">
-                                            <select className="form-select bg-light border-0 h-12" value="">
+                                            <select className="form-select bg-light border-0 h-12" value="value">
                                                 <option value="Select A Service">Select A Service</option>
                                                 <option value="PTA">PTA(Pure Tone Audiometry)</option>
                                                 <option value="Hearing Aid Trail">Hearing Aid Trail</option>
@@ -27,10 +27,10 @@ const Appointment = () => {
                                                 <option value="Hearing Aid Programming">Hearing Aid Programming</option>
                                                 <option value="Batteries">Batteries</option>
 
-                                            </select>
+                                            </select> 
                                         </div>
                                         <div className="col-12 col-sm-6">
-                                            <select className="form-select bg-light border-0 h-12" value="">
+                                            <select className="form-select bg-light border-0 h-12" value="value">
                                                 <option value="Select A Service">Select Audiology Expert</option>
                                                 <option value="Vivek Mishra">Vivek Mishra</option>
                                                 <option value="Vivek Mishra">Vivek Mishra</option>

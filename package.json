@@ -13,6 +13,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
     "tempusdominus-bootstrap-4": "^5.39.2",
     "web-vitals": "^2.1.4",
     "wowjs": "^1.1.3"

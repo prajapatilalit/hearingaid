@@ -34,7 +34,7 @@ const About = () => {
                         {/* <div className="col-lg-5" style="min-height: 500px;"> */}
                         <div className="col-lg-5 min-h-128">
                             <div className="position-relative h-100">
-                                <img className="position-absolute w-100 h-100 rounded wow zoomIn object-fit-cover" data-wow-delay="0.9s" src="./assets/img/about.jpg" />
+                                <img className="position-absolute w-100 h-100 rounded wow zoomIn object-fit-cover" data-wow-delay="0.9s" src="./assets/img/hearingtunning.jpg" />
                             </div>
                         </div>
                     </div>

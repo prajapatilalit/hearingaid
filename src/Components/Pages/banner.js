@@ -51,7 +51,7 @@ const Banner = () => {
                             <div className="bg-secondary d-flex flex-column p-5 h-100">
                                 <h3 className="text-white mb-3">Make Appointment</h3>
                                 <p className="text-white">Experience Exceptional Hearing with Our Comprehensive Ear Testing and Tailored Hearing Aid Solutions.</p>
-                                <h2 className="text-white mb-0">+919911917723</h2>
+                                <h2 className="text-white mb-0">+91-9911917723</h2>
                             </div>
                         </div>
                     </div>

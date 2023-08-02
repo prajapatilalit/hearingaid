@@ -29,8 +29,8 @@ const Footer = () => {
                         <div className="col-lg-3 col-md-6">
                             <h3 className="text-white mb-4">Get In Touch</h3>
                             <p className="mb-2"><i className="bi bi-geo-alt text-success me-2"></i>H.No. 50 Street-4, Sheetla Colony, Sector-5, Gurugram, Haryana, India.</p>
-                            <p className="mb-2"><i className="bi bi-envelope-open text-success me-2"></i>info@elitelisten.com</p>
-                            <p className="mb-0"><i className="bi bi-telephone text-success me-2"></i>+919911917723</p>
+                            <p className="mb-2"><a className="text-white" href="mailto:info@elitelisten.com"><i className="bi bi-envelope-open text-success me-2"></i>info@elitelisten.com</a></p>
+                            <a className="mb-0 text-white" href="tel:+919911917723"><i className="bi bi-telephone text-success me-2"></i>+91-9911917723</a>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <h3 className="text-white mb-4">Follow Us</h3>
@@ -51,11 +51,11 @@ const Footer = () => {
                         <div className="col-md-6 text-center text-md-start">
                             <p className="mb-md-0">&copy; <a className="text-white border-bottom" href="#">Elite listen</a>. All Rights Reserved.</p>
                         </div>
-                        <div className="col-md-6 text-center text-md-end">
+                        {/* <div className="col-md-6 text-center text-md-end">
                             <p className="mb-0">Designed by <a className="text-white border-bottom" href="https://htmlcodex.com">HTML Codex</a><br/>
                                 Distributed by <a className="text-white border-bottom" href="https://themewagon.com">ThemeWagon</a>              
                             </p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
