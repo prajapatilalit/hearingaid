@@ -33,9 +33,10 @@ const Pricing = () => {
                         <div className="col-lg-5">
                             <div className="section-title mb-4">
                                 <h5 className="position-relative d-inline-block text-success text-uppercase">Pricing Plan</h5>
-                                <h1 className="display-5 mb-0">We Offer Fair Prices for Dental Treatment</h1>
+                                <h1 className="display-5 mb-0">We Offer Fair Prices for Hearing Solutions</h1>
                             </div>
-                            <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo eirmod magna dolore erat amet</p>
+                            <p className="mb-4">Because we believe that hearing shouldn’t be a luxury—it’s a right. And it’s our mission to ensure that everyone who walks through our doors leaves with not just a hearing aid, but a renewed sense of connection and belonging.</p>
+                            {/* <p className="mb-4">Take advantage of our limited-time offer price and experience top-quality hearing solutions at an unbeatable value.</p> */}
                             <h5 className="text-uppercase text-success wow fadeInUp" data-wow-delay="0.3s">Call for Appointment</h5>
                             <h1 className="wow fadeInUp" data-wow-delay="0.6s">+91-9911917723</h1>
                         </div>
@@ -45,9 +46,9 @@ const Pricing = () => {
                                     <div className="position-relative">
                                         <img className="img-fluid rounded-top" src="./assets/img/price-1.jpg" alt="" />
                                         {/* <div className="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle" style="z-index: 2;"> */}
-                                        <div className="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle zindex" >
+                                        {/* <div className="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle zindex" >
                                             <h2 className="text-success m-0">$35</h2>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="position-relative text-center bg-light border-bottom border-success py-5 p-4">
                                         <h4>Hearing Aid Fitment</h4>
@@ -62,9 +63,9 @@ const Pricing = () => {
                                     <div className="position-relative">
                                         <img className="img-fluid rounded-top" src="./assets/img/price-2.jpg" alt="" />
                                         {/* <div className="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle" style="z-index: 2;"> */}
-                                        <div className="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle zindex" >
+                                        {/* <div className="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle zindex" >
                                             <h2 className="text-success m-0">$49</h2>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="position-relative text-center bg-light border-bottom border-success py-5 p-4">
                                         <h4>Hearing Screening</h4>
@@ -79,9 +80,9 @@ const Pricing = () => {
                                     <div className="position-relative">
                                         <img className="img-fluid rounded-top" src="./assets/img/price-3.jpg" alt="" />
                                         {/* <div className="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle" style="z-index: 2;"> */}
-                                        <div className="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle zindex">
+                                        {/* <div className="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle zindex">
                                             <h2 className="text-success m-0">$99</h2>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="position-relative text-center bg-light border-bottom border-success py-5 p-4">
                                         <h4>Hearing Aid Repair & Programming</h4>

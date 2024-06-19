@@ -4,11 +4,11 @@ const CarouselHearinAid = () => {
 
     return (
         <>
-            <div className="container-fluid p-0 h-100">
-                <div id="header-carousel" className="carousel slide carousel-fade h-100" data-bs-ride="carousel">
-                    <div className="carousel-inner h-100">
-                        <div className="carousel-item active h-100">
-                            <img className="w-100 h-10" src="./assets/img/front-view-man-holding-hearing-aidsss.jpg" alt="Image" />
+            <div className="container-fluid p-0 h-50">
+                <div id="header-carousel" className="carousel slide carousel-fade h-50" data-bs-ride="carousel">
+                    <div className="carousel-inner h-50">
+                        <div className="carousel-item active h-50">
+                            <img className="w-100 h-50" src="./assets/img/front-view-man-holding-hearing-aidsss.jpg" alt="Image" />
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div className="p-3">
                                     <h5 className="text-white text-uppercase mb-3 animated slideInDown">Keep Your Ear Healthy</h5>
@@ -18,8 +18,8 @@ const CarouselHearinAid = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="carousel-item h-100">
-                            <img className="w-100 h-100" src="./assets/img/carousel-2.jpg" alt="Image" />
+                        <div className="carousel-item h-50">
+                            <img className="w-100 h-50" src="./assets/img/carousel-2.jpg" alt="Image" />
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div className="p-3">
                                     <h5 className="text-white text-uppercase mb-3 animated slideInDown">Keep Your Ear Healthy</h5>
