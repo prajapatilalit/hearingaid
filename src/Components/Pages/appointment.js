@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 console.log("base url,", process.env.REACT_APP_API_URL)
-const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
+// const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
 import { API_BASE_URL } from "../../config";
 const Appointment = () => {
     const [appointmentData, setAppointmentData] = useState({
