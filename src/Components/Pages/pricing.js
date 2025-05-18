@@ -27,7 +27,7 @@ const Pricing = () => {
 
     return (
         <>
-            <div id="pricing" className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div id="pricing" className="container-fluid pb-5 wow fadeInUp" data-wow-delay="0.1s">
                 <div className="container">
                     <div className="row g-5">
                         <div className="col-lg-5">
@@ -97,7 +97,7 @@ const Pricing = () => {
                         </div>
                     </div>
                 </div>
-            </div>        
+            </div>
         </>
     )
 }

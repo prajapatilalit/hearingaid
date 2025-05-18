@@ -4,7 +4,7 @@ const Team = () => {
 
     return (
         <>
-            <div className="container-fluid py-5">
+            <div className="container-fluid pb-5">
                 <div className="container">
                     <div className="row g-5">
                         <div className="col-lg-4 wow slideInUp" data-wow-delay="0.1s">
@@ -85,7 +85,7 @@ const Team = () => {
                         </div> */}
                         {/*<div className="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                             <div className="team-item">
-                                
+
                                 <div className="position-relative rounded-top z-1">
                                     <img className="img-fluid rounded-top w-100" src="./assets/img/team-5.jpg" alt="" />
                                     <div className="position-absolute top-100 start-50 translate-middle bg-light rounded p-2 d-flex">

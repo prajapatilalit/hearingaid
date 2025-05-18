@@ -64,7 +64,7 @@ const Service = () => {
                             <div className="position-relative bg-success rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-4">
                                 <h3 className="text-white mb-3">Make Appointment</h3>
                                 <p className="text-white mb-3">At our esteemed clinic, we offer top-of-the-line ear testing services to ensure you receive the best hearing care possible. Our team of expert audiologists is dedicated to evaluating your hearing health and providing customized solutions that perfectly suit your individual needs.</p>
-                                <h2 className="text-white mb-0">+91-9911917723</h2>
+                                <h2 className="text-white mb-0"><a className="mb-2 text-white" href="tel:+919911917723"><i className="bi bi-telephone text-warn me-2"></i>+91-9911917723</a></h2>
                             </div>
                         </div>
                     </div>

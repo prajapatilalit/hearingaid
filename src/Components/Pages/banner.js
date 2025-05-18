@@ -1,8 +1,8 @@
 import React from "react";
-
+import { Link } from 'react-router-dom';
 const Banner = () => {
 
-    return ( 
+    return (
         <>
             <div className="container-fluid banner mb-5">
                 <div className="container">
@@ -23,7 +23,7 @@ const Banner = () => {
                                     <h6 className="text-white mb-0">Sunday</h6>
                                     <p className="mb-0"> 8:00am - 5:00pm</p>
                                 </div>
-                                <a className="btn btn-light" href="">Appointment</a>
+                                <Link to="/appointment" className="btn btn-light">Appointment</Link>
                             </div>
                         </div>
                         <div className="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
@@ -43,7 +43,7 @@ const Banner = () => {
                                     <option value="Hearing Aid Programming">Hearing Aid Programming</option>
                                     <option value="Batteries">Batteries</option>
                                 </select>
-                                <a className="btn btn-light" href="">Search Audiologist</a>
+                                <Link className="btn btn-light" to="/team">Search Audiologist</Link>
                             </div>
                         </div>
                         <div className="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
@@ -51,7 +51,7 @@ const Banner = () => {
                             <div className="bg-secondary d-flex flex-column p-5 h-100">
                                 <h3 className="text-white mb-3">Make Appointment</h3>
                                 <p className="text-white">Experience Exceptional Hearing with Our Comprehensive Ear Testing and Tailored Hearing Aid Solutions.</p>
-                                <h2 className="text-white mb-0">+91-9911917723</h2>
+                                <h2 className="text-white mb-0"><a className="mb-2 text-white" href="tel:+919911917723"><i className="bi bi-telephone text-warn me-2"></i>+91-9911917723</a></h2>
                             </div>
                         </div>
                     </div>
