@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: backend-service
+    env: node
+    rootDir: ./backend  # Set the root directory here
+    buildCommand: "npm install"
+    startCommand: "node server.js"
+    envVars:
+      NODE_ENV: production
