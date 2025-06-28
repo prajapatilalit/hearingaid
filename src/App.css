@@ -1,0 +1,85 @@
+/* Underline animation for nav links */
+.nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 2px;
+  background-color: #28a745;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  transform: scaleX(1);
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #28a745 !important;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+}
+
+.carousel-item img {
+  max-height: 650px;
+  object-fit: cover;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.bg-appointment {
+  background: url('/assets/img/front-view-man-holding-hearing-aidsss.jpg') center/cover no-repeat;
+  position: relative;
+}
+
+.bg-appointment::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* Optional overlay */
+  z-index: 1;
+}
+
+.appointment-form {
+  z-index: 2;
+}
+
+.banner .form-control,
+.banner .form-select {
+  height: 45px;
+  font-size: 0.95rem;
+}
+
+.team-item:hover .social-icons {
+  bottom: 10px !important;
+  opacity: 1;
+  visibility: visible;
+}
+
+.btn-lg-square {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
