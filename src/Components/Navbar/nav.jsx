@@ -59,8 +59,8 @@ const Nav = () => {
           <HashLink smooth to="/#about" onClick={closeNavbar} className={`nav-item nav-link ${isActive("about")}`}>
             About
           </HashLink>
-          <HashLink smooth to="/#service" onClick={closeNavbar} className={`nav-item nav-link ${isActive("service")}`}>
-            Service
+          <HashLink smooth to="/#hearingaid" onClick={closeNavbar} className={`nav-item nav-link ${isActive("hearingaid")}`}>
+            Hearing Aid
           </HashLink>
 
           <div className="nav-item dropdown">
@@ -70,14 +70,14 @@ const Nav = () => {
             <ul className="dropdown-menu">
               <li>
                 <HashLink smooth to="/#pricing" onClick={closeNavbar} className="dropdown-item">
-                  Pricing Plan
+                  Services
                 </HashLink>
               </li>
-              <li>
+              {/* <li>
                 <HashLink smooth to="/#team" onClick={closeNavbar} className="dropdown-item">
                   Our Ear Specialist
                 </HashLink>
-              </li>
+              </li> */}
               <li>
                 <HashLink smooth to="/#testimonial" onClick={closeNavbar} className="dropdown-item">
                   Testimonial
@@ -86,6 +86,11 @@ const Nav = () => {
               <li>
                 <HashLink smooth to="/#appointment" onClick={closeNavbar} className="dropdown-item">
                   Appointment
+                </HashLink>
+              </li>
+              <li>
+                <HashLink smooth to="/#hearing-loss" onClick={closeNavbar} className="dropdown-item">
+                  Hearing Loss
                 </HashLink>
               </li>
             </ul>

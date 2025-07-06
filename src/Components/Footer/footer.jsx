@@ -8,7 +8,7 @@ const Footer = () => {
   const navLinks = [
     { name: "Home", pathUrl: "/#home" },
     { name: "About Us", pathUrl: "/about" },
-    { name: "Our Services", pathUrl: "/service" },
+    { name: "Hearing Aid", pathUrl: "/hearingaid" },
     { name: "Latest Blog", pathUrl: "/" },
     { name: "Contact Us", pathUrl: "/contact" },
   ];

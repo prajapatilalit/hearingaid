@@ -38,7 +38,7 @@ const Home = () => {
       <section id="offer"><Offer /></section>
       <section id="pricing"><Pricing /></section>
       <section id="testimonial"><Testimonial /></section>
-      <section id="team"><Team /></section>
+      {/* <section id="team"><Team /></section> */}
       <section id="contact"><Newsletter /></section>
     </>
   );

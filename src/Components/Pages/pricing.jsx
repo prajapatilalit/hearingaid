@@ -33,15 +33,15 @@ const Pricing = () => {
   const pricingPlans = [
     {
       title: "Hearing Aid Fitment",
-      image: "./assets/img/price-1.jpg",
+      image: "./assets/img/hearingaidfitting.jpg",
     },
     {
       title: "Hearing Screening",
-      image: "./assets/img/price-2.jpg",
+      image: "./assets/img/hearscreening.jpg",
     },
     {
       title: "Hearing Aid Repair & Programming",
-      image: "./assets/img/price-3.jpg",
+      image: "./assets/img/hearingaidfitting.jpg",
     },
   ];
 

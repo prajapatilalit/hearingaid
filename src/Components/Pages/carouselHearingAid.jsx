@@ -34,7 +34,7 @@ const CarouselHearinAid = () => {
             <img
               className="w-100"
               style={{ maxHeight: "650px", objectFit: "cover" }}
-              src="./assets/img/carousel-2.jpg"
+              src="./assets/img/person-having-hearing-issues.jpg"
               alt="Ear health consultation"
             />
             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
