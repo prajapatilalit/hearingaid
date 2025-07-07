@@ -61,8 +61,8 @@ const Footer = () => {
 
             <div className="col-lg-3 col-md-6">
               <h5 className="text-white mb-4">Opening Hours</h5>
-              <p><i className="bi bi-clock text-success me-2"></i>Mon - Sat: 9AM - 6PM</p>
-              <p><i className="bi bi-calendar text-success me-2"></i>Sunday: Closed</p>
+              <p><i className="bi bi-clock text-success me-2"></i>Mon - Sun: 8AM - 7PM</p>
+              {/* <p><i className="bi bi-calendar text-success me-2"></i>Sunday: Closed</p> */}
             </div>
           </div>
         </div>

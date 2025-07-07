@@ -8,7 +8,6 @@ const Appointment = () => {
     name: "",
     email: "",
     service: "",
-    audioExpert: "",
     mobile: "",
   });
 
@@ -35,8 +34,8 @@ const Appointment = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const { name, email, service, audioExpert, mobile } = appointmentData;
-    if (!name || !email || !service || !audioExpert || !mobile) {
+    const { name, email, service, mobile } = appointmentData;
+    if (!name || !email || !service || !mobile) {
       toast.error("Please fill out all required fields.", { position: "top-right" });
       return;
     }
@@ -46,7 +45,6 @@ const Appointment = () => {
       patientEmail: email,
       ownerEmail: "info@elitelisten.com",
       typeOfService: service,
-      audioExpert,
       mobile,
     };
 
@@ -59,7 +57,6 @@ const Appointment = () => {
           name: "",
           email: "",
           service: "",
-          audioExpert: "",
           mobile: "",
         });
       }
@@ -122,7 +119,7 @@ const Appointment = () => {
                         ))}
                       </select>
                     </div>
-                    <div className="col-12 col-sm-6">
+                    {/* <div className="col-12 col-sm-6">
                       <select
                         className="form-select bg-light border-0 h-100 py-2"
                         name="audioExpert"
@@ -136,7 +133,7 @@ const Appointment = () => {
                           </option>
                         ))}
                       </select>
-                    </div>
+                    </div> */}
                     <div className="col-12 col-sm-6">
                       <input
                         type="text"

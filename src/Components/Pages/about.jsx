@@ -48,7 +48,7 @@ const About = () => {
             <div className="position-relative rounded overflow-hidden" style={{ minHeight: "400px" }}>
               <img
                 className="position-absolute w-100 h-100 object-fit-cover rounded"
-                src="./assets/img/hearingtunning.jpg"
+                src="./assets/img/silk.jpeg.jpg"
                 alt="Hearing tuning"
               />
             </div>

@@ -8,15 +8,15 @@ const Banner = () => {
     return (
         <div className="container-fluid banner mb-5">
           <div className="container">
-            <div className="row gx-0 gy-4">
+            <div className="row gx-6 gy-4">
                 {/* Opening Hours */}
-                <div className="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+                <div className="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
                     <div className="bg-success d-flex flex-column justify-content-between p-5 h-100 rounded shadow">
                       <div>
                         <h3 className="text-white mb-4">Opening Hours</h3>
                         <div className="d-flex justify-content-between text-white mb-2">
                           <span>Mon - Fri</span>
-                          <span>8:00am - 9:00pm</span>
+                          <span>8:00am - 7:00pm</span>
                         </div>
                         <div className="d-flex justify-content-between text-white mb-2">
                           <span>Saturday</span>
@@ -35,18 +35,18 @@ const Banner = () => {
                 </div>
 
                 {/* Search Audiologist */}
-                <div className="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+                {/* <div className="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
                     <div className="bg-dark d-flex flex-column p-5 h-100 rounded shadow">
                       <h3 className="text-white mb-4">Search An Audiologist</h3>
 
-                      {/* React Date Picker */}
+
                       <DatePicker
                         selected={selectedDate}
                         onChange={(date) => setSelectedDate(date)}
                         className="form-control bg-light border-0 mb-3 h-100 py-2"
                         placeholderText="Select Appointment Date"
                         dateFormat="dd-MM-yyyy"
-                        minDate={new Date()} // Prevent past dates
+                        minDate={new Date()}
                       />
 
                       <select className="form-select bg-light border-0 mb-3 h-100 py-2">
@@ -62,11 +62,11 @@ const Banner = () => {
                         Search Audiologist
                       </Link>
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* Call Section */}
-                <div className="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                <div className="col-lg-6 wow zoomIn" data-wow-delay="0.6s">
                     <div className="bg-secondary d-flex flex-column justify-content-between p-5 h-100 rounded shadow text-white">
                         <div>
                           <h3 className="mb-3">Make Appointment</h3>

@@ -33,15 +33,15 @@ const Pricing = () => {
   const pricingPlans = [
     {
       title: "Hearing Aid Fitment",
-      image: "./assets/img/hearingaidfitting.jpg",
+      image: "./assets/img/hearing-aids-fitting.jpg",
     },
     {
       title: "Hearing Screening",
-      image: "./assets/img/hearscreening.jpg",
+      image: "./assets/img/hearing screening.png",
     },
     {
       title: "Hearing Aid Repair & Programming",
-      image: "./assets/img/hearingaidfitting.jpg",
+      image: "./assets/img/hearing aid repair 2.jpg",
     },
   ];
 
@@ -90,6 +90,7 @@ const Pricing = () => {
                 <div className="price-item pb-4" key={index}>
                   <div className="position-relative">
                     <img
+                      style={{height: "155px"}}
                       className="img-fluid rounded-top"
                       src={plan.image}
                       alt={plan.title}

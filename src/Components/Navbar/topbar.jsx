@@ -9,7 +9,7 @@ const Topbar = () => {
           <div className="d-inline-flex align-items-center h-100">
             <small className="text-muted py-2">
               <i className="far fa-clock text-success me-2"></i>
-              Opening Hours: Mon - Sat : 10:00 AM - 07:00 PM, Sunday Closed
+              Opening Hours: Mon - Sun : 08:00 AM - 07:00 PM
             </small>
           </div>
         </div>
