@@ -238,8 +238,9 @@ h6,
 }
 
 .bg-offer {
-  background:url(/public/assets/img/hear_check1.jpg) center center no-repeat;
+  background:url(/public/assets/img/products.jpeg) center center no-repeat;
   background-size: cover;
+  background-size: 100% 100%;
 }
 
 .offer-text {

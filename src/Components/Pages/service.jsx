@@ -40,6 +40,7 @@ const Service = () => {
               <div className="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
                 <div className="rounded-top overflow-hidden">
                   <img
+                    style={{height: "213px"}}
                     className="img-fluid"
                     src="./assets/img/download BTE.jpg"
                     alt="Hearing Screening"
@@ -52,6 +53,7 @@ const Service = () => {
               <div className="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
                 <div className="rounded-top overflow-hidden">
                   <img
+                    style={{height: "213px"}}
                     className="img-fluid"
                     src="./assets/img/signia ric pure.jpeg.jpg"
                     alt="Hearing Aid Fitting"
@@ -64,6 +66,7 @@ const Service = () => {
               <div className="col-md-4 service-item wow zoomIn" data-wow-delay="0.12s">
                 <div className="rounded-top overflow-hidden">
                   <img
+                    style={{height: "213px"}}
                     className="img-fluid"
                     src="./assets/img/SLIM RIC.jpeg.jpg"
                     alt="Slim RIC"
@@ -85,6 +88,7 @@ const Service = () => {
               <div className="col-md-4 service-item wow zoomIn" data-wow-delay="0.3s">
                 <div className="rounded-top overflow-hidden">
                   <img
+                    style={{height: "213px"}}
                     className="img-fluid"
                     src="./assets/img/cic.jpeg.jpg"
                     alt="Hearing Aid Repair & Programming"
@@ -97,6 +101,7 @@ const Service = () => {
               <div className="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
                 <div className="rounded-top overflow-hidden">
                   <img
+                    style={{height: "213px"}}
                     className="img-fluid"
                     src="./assets/img/insio AX image.jpg"
                     alt="Into The Canal"
@@ -109,6 +114,7 @@ const Service = () => {
               <div className="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
                 <div className="rounded-top overflow-hidden">
                   <img
+                    style={{height: "213px"}}
                     className="img-fluid"
                     src="./assets/img/IIC-Hearing-aid1.jpg"
                     alt="Invisible in Canal"

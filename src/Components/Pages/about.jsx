@@ -31,7 +31,7 @@ const About = () => {
               </div>
               <div className="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
                 <h5 className="mb-3">
-                  <i className="fa fa-check-circle text-success me-3"></i>24/7 Service
+                  <i className="fa fa-check-circle text-success me-3"></i>All Day Service
                 </h5>
                 <h5 className="mb-3">
                   <i className="fa fa-check-circle text-success me-3"></i>Fair Prices
@@ -48,7 +48,7 @@ const About = () => {
             <div className="position-relative rounded overflow-hidden" style={{ minHeight: "400px" }}>
               <img
                 className="position-absolute w-100 h-100 object-fit-cover rounded"
-                src="./assets/img/silk.jpeg.jpg"
+                src="./assets/img/silk_PhotoGrid.png"
                 alt="Hearing tuning"
               />
             </div>
