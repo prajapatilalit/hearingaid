@@ -4,6 +4,7 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV || 'development'}`,
 });
 const appointmentRoutes = require("./routers/appointmentRoutes");
+const newsletterRoutes = require("./routers/newsletterRoutes");
 const app = express();
 // Middleware to parse JSON bodies
 app.use(express.json());
@@ -11,15 +12,7 @@ app.use(cors({cors: "*", methods:["GET", "POST", "PUT", "PATCH"]}));
 
 // Routes
 app.use("/api", appointmentRoutes);
-// app.post('/api/appointment', (req, res) => {
-//     const { patientName, patientEmail, ownerEmail, typeOfService, appointmentDate, appointmentTime } = req.body;
-
-//     sendAppointmentNotification(patientName, patientEmail, ownerEmail, typeOfService, appointmentDate, appointmentTime);
-
-//     res.status(200).send({ message: 'Appointment confirmed, notifications sent to both patient and owner.' });
-// });
-
-
+app.use("/api/newsletter", newsletterRoutes);
 // Default Route
 app.get("/", (req, res) => {
   res.send("✅ Backend is running!");

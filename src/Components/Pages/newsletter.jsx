@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
+import axios from "axios";
+import { API_BASE_URL } from "../../config";
 import "react-toastify/dist/ReactToastify.css";
 
 const Newsletter = () => {
   const [email, setEmail] = useState("");
+  const [loading, setLoading] = useState(false);
 
-  const handleSubscribe = (e) => {
+  const handleSubscribe = async (e) => {
     e.preventDefault();
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -14,12 +17,34 @@ const Newsletter = () => {
       toast.error("Please enter a valid email address.");
       return;
     }
+    if (!email) {
+      toast.error("Please fill out all required fields.", { position: "top-right" });
+      return;
+    }
 
+    const payload = {
+      subscriberEmail: email,
+      ownerEmail: "info@elitelisten.com",
+    };
+
+    try {
+      setLoading(true);
+      const response = await axios.post(`${API_BASE_URL}/api/newsletter/subscribe`, payload);
+      if (response.status === 200) {
+        toast.success(response.data.message, { position: "top-right" });
+        setEmail("");
+      }
+    } catch (error) {
+      toast.error("Failed to subscribe!.", { position: "top-right" });
+      console.error(error);
+    } finally {
+      setLoading(false);
+    }
     // Simulate subscription success (you can replace with real API call)
-    toast.success("Thank you for subscribing!");
+
 
     // Reset the input
-    setEmail("");
+
   };
 
   return (
@@ -38,8 +63,8 @@ const Newsletter = () => {
                   onChange={(e) => setEmail(e.target.value)}
                   required
                 />
-                <button className="btn btn-dark px-4" type="submit">
-                  Sign Up
+                <button className="btn btn-dark px-4" type="submit" disabled={loading}>
+                  {loading ? "Submitting..." : "Sign Up"}
                 </button>
               </div>
             </form>

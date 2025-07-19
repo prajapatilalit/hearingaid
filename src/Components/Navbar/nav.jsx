@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
 import { useLocation } from "react-router-dom";
+import Logo from "./logo";
+
 
 const Nav = () => {
   const [activeSection, setActiveSection] = useState("");
@@ -38,10 +40,7 @@ const Nav = () => {
 
   return (
     <nav className="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0 sticky-top">
-      <HashLink smooth to="/#home" className="nav-item nav-link" onClick={closeNavbar}>
-        <img width="200px" height="100px" src="./assets/img/logoelite.png" alt="Logo" />
-      </HashLink>
-
+      <Logo onClick={closeNavbar} /> {/* ✅ Use Logo component here */}
       <button
         className="navbar-toggler"
         type="button"

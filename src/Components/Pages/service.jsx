@@ -29,14 +29,19 @@ const Service = () => {
     <AnimatePresence>
       {hoveredCard === key && (
         <motion.div
-          className="position-absolute start-50 translate-middle-x bg-white shadow p-3 rounded"
-          style={{ bottom: "14px", width: "250px", zIndex: 5 }}
+          className="position-absolute start-50 translate-middle-x shadow p-3 rounded"
+          style={{ bottom: "14px", width: "250px", zIndex: 5, backgroundColor: "#dcd5cf" }}
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -10 }}
           transition={{ duration: 0.2 }}
         >
-          <h6 className="mb-2">Specifications:</h6>
+          <div className="d-flex justify-content-between">
+            <h6 className="mb-2">Specifications:</h6>
+            <div onClick={() => setHoveredCard(null)} style={{cursor: "pointer"}}>
+              <i class="fas fa-times" style={{color: "#EE7923"}}></i>
+            </div>
+          </div>
           <ul className="mb-0 text-start small">
             {deviceSpecifications[key].map((spec, idx) => (
               <li key={idx}>{spec}</li>
@@ -81,36 +86,36 @@ const Service = () => {
             <div className="row g-5">
               {/* BTE */}
               <div className="col-md-4 service-item wow zoomIn position-relative" data-wow-delay="0.6s">
-                {renderEyeIcon("bte")}
+                {/* {renderEyeIcon("bte")} */}
                 {renderPopup("bte")}
-                <div className="rounded-top overflow-hidden">
+                <div className="rounded-top overflow-hidden" onClick={() => setHoveredCard("bte")} style={{ cursor: "pointer", zIndex: 2 }} >
                   <img style={{ height: "213px" }} className="img-fluid" src="./assets/img/download BTE.jpg" alt="BTE" />
                 </div>
-                <div className="position-relative bg-light rounded-bottom text-center p-4">
+                <div className="position-relative bg-light rounded-bottom text-center p-4" onClick={() => setHoveredCard("bte")} style={{ cursor: "pointer", zIndex: 2 }} >
                   <h5 className="m-0">Behind The Ear(BTE) Hearing Aid</h5>
                 </div>
               </div>
 
               {/* RIC */}
               <div className="col-md-4 service-item wow zoomIn position-relative" data-wow-delay="0.9s">
-                {renderEyeIcon("ric")}
+                {/* {renderEyeIcon("ric")} */}
                 {renderPopup("ric")}
-                <div className="rounded-top overflow-hidden">
+                <div className="rounded-top overflow-hidden" onClick={() => setHoveredCard("ric")} style={{ cursor: "pointer", zIndex: 2 }}>
                   <img style={{ height: "213px" }} className="img-fluid" src="./assets/img/signia ric pure.jpeg.jpg" alt="RIC" />
                 </div>
-                <div className="position-relative bg-light rounded-bottom text-center p-4">
+                <div className="position-relative bg-light rounded-bottom text-center p-4" onClick={() => setHoveredCard("ric")} style={{ cursor: "pointer", zIndex: 2 }}>
                   <h5 className="m-0">Reciever in Canal(RIC) Hearing Aid</h5>
                 </div>
               </div>
 
               {/* Slim RIC */}
               <div className="col-md-4 service-item wow zoomIn position-relative" data-wow-delay="0.12s">
-                {renderEyeIcon("slimric")}
+                {/* {renderEyeIcon("slimric")} */}
                 {renderPopup("slimric")}
-                <div className="rounded-top overflow-hidden">
+                <div className="rounded-top overflow-hidden" onClick={() => setHoveredCard("slimric")} style={{ cursor: "pointer", zIndex: 2 }}>
                   <img style={{ height: "213px" }} className="img-fluid" src="./assets/img/SLIM RIC.jpeg.jpg" alt="Slim RIC" />
                 </div>
-                <div className="position-relative bg-light rounded-bottom text-center p-4">
+                <div className="position-relative bg-light rounded-bottom text-center p-4" onClick={() => setHoveredCard("slimric")} style={{ cursor: "pointer", zIndex: 2 }}>
                   <h5 className="m-0">Slim RIC Hearing Aid</h5>
                 </div>
               </div>
@@ -124,36 +129,36 @@ const Service = () => {
             <div className="row g-5">
               {/* CIC */}
               <div className="col-md-4 service-item wow zoomIn position-relative" data-wow-delay="0.3s">
-                {renderEyeIcon("cic")}
+                {/* {renderEyeIcon("cic")} */}
                 {renderPopup("cic")}
-                <div className="rounded-top overflow-hidden">
+                <div className="rounded-top overflow-hidden" onClick={() => setHoveredCard("cic")} style={{ cursor: "pointer", zIndex: 2 }}>
                   <img style={{ height: "213px" }} className="img-fluid" src="./assets/img/cic.jpeg.jpg" alt="CIC" />
                 </div>
-                <div className="position-relative bg-light rounded-bottom text-center p-4">
+                <div className="position-relative bg-light rounded-bottom text-center p-4" onClick={() => setHoveredCard("cic")} style={{ cursor: "pointer", zIndex: 2 }}>
                   <h5 className="m-0">Complete in Canal(CIC) Hearing Aid</h5>
                 </div>
               </div>
 
               {/* ITC */}
               <div className="col-md-4 service-item wow zoomIn position-relative" data-wow-delay="0.6s">
-                {renderEyeIcon("itc")}
+                {/* {renderEyeIcon("itc")} */}
                 {renderPopup("itc")}
-                <div className="rounded-top overflow-hidden">
+                <div className="rounded-top overflow-hidden" onClick={() => setHoveredCard("itc")} style={{ cursor: "pointer", zIndex: 2 }}>
                   <img style={{ height: "213px" }} className="img-fluid" src="./assets/img/insio AX image.jpg" alt="ITC" />
                 </div>
-                <div className="position-relative bg-light rounded-bottom text-center p-4">
+                <div className="position-relative bg-light rounded-bottom text-center p-4" onClick={() => setHoveredCard("itc")} style={{ cursor: "pointer", zIndex: 2 }}>
                   <h5 className="m-0">Into The Canal(ITC) Hearing Aid</h5>
                 </div>
               </div>
 
               {/* IIC */}
               <div className="col-md-4 service-item wow zoomIn position-relative" data-wow-delay="0.9s">
-                {renderEyeIcon("iic")}
+                {/* {renderEyeIcon("iic")} */}
                 {renderPopup("iic")}
-                <div className="rounded-top overflow-hidden">
+                <div className="rounded-top overflow-hidden" onClick={() => setHoveredCard("iic")} style={{ cursor: "pointer", zIndex: 2 }}>
                   <img style={{ height: "213px" }} className="img-fluid" src="./assets/img/IIC-Hearing-aid1.jpg" alt="IIC" />
                 </div>
-                <div className="position-relative bg-light rounded-bottom text-center p-4">
+                <div className="position-relative bg-light rounded-bottom text-center p-4" onClick={() => setHoveredCard("iic")} style={{ cursor: "pointer", zIndex: 2 }}>
                   <h5 className="m-0">Invisible in Canal(IIC) Hearing Aid</h5>
                 </div>
               </div>
