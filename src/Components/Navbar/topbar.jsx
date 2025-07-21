@@ -24,9 +24,9 @@ const Topbar = () => {
               </a>
             </small>
             <small>
-              <a href="tel:+919911917723" className="text-white text-decoration-none">
+              <a href="tel:+918800792198" className="text-white text-decoration-none">
                 <i className="fa fa-phone-alt me-2"></i>
-                +91-9911917723
+                +91-8800792198
               </a>
             </small>
           </div>

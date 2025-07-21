@@ -64,8 +64,8 @@ const Footer = () => {
 
               <div className="d-flex align-items-center">
                 <i className="bi bi-telephone text-success me-2"></i>
-                <a className="text-reset text-decoration-none" href="tel:+919911917723">
-                  +91-9911917723
+                <a className="text-reset text-decoration-none" href="tel:+918800792198">
+                  +91-8800792198
                 </a>
               </div>
             </div>
@@ -90,7 +90,7 @@ const Footer = () => {
               <h5 className="mb-4 text-white">Our Location</h5>
               <div className="ratio ratio-4x3">
                 <iframe
-                  src="https://www.google.com/maps?q=84P+GF+Sector+43+Golf+course+Road+Gurugram+Haryana+122002&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0716244535317!2d77.0365891755175!3d28.62601147567627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d193c13d64c0d%3A0x29e2752b7c77a01d!2s84P%2C%20Sector%2043%2C%20Gurugram%2C%20Haryana%20122002!5e0!3m2!1sen!2sin!4v1720682842300!5m2!1sen!2sin"
                   width="100%"
                   height="250"
                   style={{ border: 0 }}

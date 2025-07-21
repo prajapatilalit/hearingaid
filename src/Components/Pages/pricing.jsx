@@ -76,7 +76,7 @@ const Pricing = () => {
               Call for Appointment
             </h5>
             <h1 className="wow fadeInUp" data-wow-delay="0.6s">
-              +91-9911917723
+              +91-8800792198
             </h1>
           </div>
 

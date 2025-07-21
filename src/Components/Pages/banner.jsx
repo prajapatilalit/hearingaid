@@ -75,9 +75,9 @@ const Banner = () => {
                           </p>
                         </div>
                         <h2 className="mb-0">
-                          <a className="text-white text-decoration-none" href="tel:+919911917723">
+                          <a className="text-white text-decoration-none" href="tel:+8800792198">
                             <i className="bi bi-telephone text-warning me-2"></i>
-                            +91-9911917723
+                            +91-8800792198
                           </a>
                         </h2>
                     </div>

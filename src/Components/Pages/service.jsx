@@ -173,8 +173,8 @@ const Service = () => {
                 Our expert audiologists provide top-quality hearing care using the latest technology. Schedule a personalized appointment and take the first step toward better hearing.
               </p>
               <h2 className="text-white mb-0">
-                <a className="text-white text-decoration-none" href="tel:+919911917723">
-                  <i className="bi bi-telephone text-warn me-2"></i>+91-9911917723
+                <a className="text-white text-decoration-none" href="tel:+918800792198">
+                  <i className="bi bi-telephone text-warn me-2"></i>+91-8800792198
                 </a>
               </h2>
             </div>
